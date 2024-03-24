@@ -1,3 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;500;600;800&family=Playpen+Sans:wght@300;400;500;600;800&family=Poppins:wght@200;300;500;600&family=Work+Sans:ital,wght@1,300;1,400&display=swap');
+@import '../src/components/dashboard/animate.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  right: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: hsl(0, 0%, 100%);
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #adadad;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a2a2a2;
+}
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins';
+  @apply bg-gray-100 text-gray-500;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", NotoColorEmojiLimited, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+a:hover {
+  @apply transition duration-200;
+  @apply text-gray-700
+}
+
