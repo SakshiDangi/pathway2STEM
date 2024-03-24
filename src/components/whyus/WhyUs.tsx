@@ -1,10 +1,10 @@
 import Heading from '../ui/Heading';
 import Button from '../ui/Button';
-import img from '../../images/laptop-landing-15.png';
+import img from '../../images/laptop-landing-9.png';
 
 export default function WhyUs() {
     const services = [
-        { name: 'Built for the user',
+        { name: 'Built for the user here lets cooperate',
           image: img,
           about: 'Afforai is where exceptional customer focus meets exceptional technology.'},
       ];
