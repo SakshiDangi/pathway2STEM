@@ -1,6 +1,6 @@
 import Heading from '../ui/Heading';
 import Button from '../ui/Button';
-import img from '../../images/laptop-landing-8.png';
+import img from '../../images/laptop-landing-15.png';
 
 export default function WhyUs() {
     const services = [
